@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alarm-clock-cli"
+version = "0.1.0"
+description = "A minimal command-line alarm clock"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+alarm = "alarm_clock.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["alarm_clock*"]
