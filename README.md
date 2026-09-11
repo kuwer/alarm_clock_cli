@@ -82,13 +82,7 @@ $ python3 -m alarm_clock list
 
 ## Screenshot
 
-The working terminal screenshot can be added at `docs/demo.png` and referenced here:
-
-```markdown
 ![Working CLI demo](docs/demo.png)
-```
-
-The screenshot file was not available as a workspace asset during README creation, so it is not linked yet.
 
 ## Tests
 
